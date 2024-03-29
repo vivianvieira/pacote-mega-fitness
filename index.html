@@ -1,0 +1,1497 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Language" content="pt-br"; charset="utf-8" />
+<link rel="shortcut icon" href="images/favicon.png" />
+<meta http-equiv="X-UA-Compatible" content="IE=9" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.css"/>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="assets/css/main.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+<link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <link rel="stylesheet" href="plugins/slick/slick-theme.css">
+  <link rel="stylesheet" href="plugins/fancybox/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="plugins/aos/aos.css">
+ <link href="csss/style.css" rel="stylesheet">
+
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+<link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
+<link rel="stylesheet" href="css/commoncss.css" type="text/css" />
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+<link rel="stylesheet" type="text/css" href="css/animate.css" />
+<link rel="stylesheet" type="text/css" href="css/hover.css" />
+<link href="css/timer.css" rel="stylesheet">
+<title>Pacote Mega Fitness</title>
+
+</head>
+
+<body>
+<php
+error_reporting(0);
+
+$fh = fopen('images/data.txt','r');
+$time = '';
+$coupan = '';
+$coupanVolume = '';
+while ($line = fgets($fh)){
+   $line = explode('##',$line);
+   $key = trim($line[0]);
+   $value = trim($line[1]);
+   if($key == 'time'){$time = $value; }
+   if($key == 'coupan'){$coupan = $value; }
+   if($key == 'coupanVolume'){$coupanVolume = $value; }
+
+fclose($fh);
+
+?>
+<!--/*==========Fix Header===========*/-->
+
+
+
+<section class="banner">
+
+
+    
+    <div class="container">
+
+    <div class="container mycontainer">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
+            
+                    
+                    <img src="images/logo.png" width="300"  class=" text-center img-responsive center-block  logoheight animated zoomIn">
+                   
+
+                    
+					
+					
+					 
+           
+
+
+        </div>   
+
+
+        
+
+<div class="col-md-10 col-md-offset-1 col-sm-12 col-xs-12 spacer3">	
+
+
+	
+<h2 class="fm18 fs40 fx12 wt500 line160 white text-center strips">
+    Você está lutando para construir algo com negócios online enquanto faz tudo o que pode?</h2></div></div></div>			
+
+
+<div class="container spacer2">
+<div class="row">
+<div class="col-md-12 col-md-offset-0 col-sm-12 col-xs-12">
+<h2 class="fm42 fs40 fx12 wt400 line140 white text-center mulish">
+Venha <span class="wt800"> adquirir esse maravilhoso,</span> & <span class="wt800 b2">inegociável- produto,</span> <span class="wt800 b2">"Pacote Mega Fitness"</span><br>  <span class="wt800 b2"> para ter uma vida mais saudável.</span></h2>
+
+
+
+</div>
+
+<div style="clear:both;"></div>
+
+<div class="col-md-12  col-sm-12 col-xs-12 spacer2">		
+<h2 class="fm21 fs40 fx12 wt600 line160 b1 text-center">
+ Aumente o envolvimento com este produto mais acessível e incrível, visando a mídia!
+</h2></div></div></div>
+
+<div class="container">
+    <div class="row">
+    <div class="col-md-12  col-sm-12 col-xs-12">
+
+
+    <div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-12 spacer4">
+	
+	<div class="myvideo3A">
+	<div class="myvideo3-box">
+    <div class="demovideo">
+    <iframe src="https://player.vimeo.com/video/839207493?autoplay=0&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    </div>	
+	</div></div>
+
+
+	
+	</div>
+    
+	
+	
+
+
+	
+
+	</div>	
+
+    
+
+    <div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-12  poppins spacer4">
+
+        <p class="lh130 fm26 fs20 fx10 text-center white wt500 spacer3"> 
+            Adquira já o acesso para esse maravilhoso produto! </p>
+    
+<a href="#">
+    <div class="buybtn text-center shine poppins spacer3">
+    <span class="wt600 fm26 fs24 fx10">|Pacote Mega Fitness!</span><br>
+    </div>
+    </a>
+<br>
+
+
+</div>  
+
+	</div>
+</div>
+
+
+	</div></section>
+	
+<div class="section12a">
+<div class="container ">
+<div class="row">
+<!--<div class="col-md-12  col-sm-12 col-xs-12 ">
+            <h2 class="fm22 fs40 fx12 wt500 line160 black text-center "><br>
+<b>Get Instant Access To This Amazing Product Now!</b>  </h2>
+    </div>-->
+
+<div class="col-md-12 col-sm-12 col-xs-12 ">			
+<!--<div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-12 spacer2 poppins">
+<p class="lh130 fm26 fs20 fx10 text-center black wt500 spacer3">                
+                Grab this insane offer at the dirt-cheap price now.
+   </p>
+</div>-->
+
+
+<div class="col-md-1 col-sm-12 col-xs-12">
+</div>
+
+<!--<div class="col-md-5 col-md-offset-0 col-sm-12 col-xs-12 spacer2">
+<h1 class="fm24 fs20 fx10 lh150 text-center margin0 helv white wt600 exactlybg poppins">
+ THE PRICE GOES UP IN
+</h1><br/>
+<div class="spacer2" id="countdown2" data-wow-delay=".3s" data-date="<?php echo $time; ?>">
+</div>	
+</div>-->
+
+
+</div>
+
+
+
+<div class="col-md-12  col-sm-12 col-xs-12 ">
+            <h2 class="fm30 fs40 fx12 wt700 line160 b2 text-center "><br>
+<b>Aqui está um negócio surpreendente para você!</b>  </h2>
+    </div>
+
+
+
+<div class="col-md-6 col-sm-12 col-xs-12 spacer4">
+    <h1 class="fm21 fs20 fx10 line150 text-left   black wt400  mulish">
+        Mega Fitness é um produto potente e fortalecido que contém <b>"150 e-books sobre saúde e exercícios."</b><br><br>
+
+        Esses e-books cobrem uma ampla variedade de exercícios para partes específicas do corpo. Além disso, o pacote contém <b>Além disso, o pacote contém <b>5.000 artigos sobre saúde e condicionamento físico, </b> bem como <b>2.500 imagens de citações sobre ioga..</b><br><br>
+
+<b>Mega Fitness é um produto que tem a capacidade de mudar a sua vida por completo. </b> Você pode aprender excelentes dicas e truques de exercícios no conforto da sua casa. 
+</h1>
+
+</div>
+
+
+<div class="col-md-6 col-sm-12 col-xs-12 spacer2">
+    <img src="images/coo8.png" width="500"  class="img-responsive center-block">
+
+    
+</div>
+
+</div></div></div>
+
+
+<div class="section12a">
+<div class="container">
+<div class="row">
+
+
+<div class="col-md-12 col-sm-12 col-xs-12 spacer4">
+<ul class="cuttingedge-listing text-left line170 wt400 black fm21 fs15 fx15">                                
+<li>Os indivíduos podem aprender sobre vários aspectos da saúde e do condicionamento físico em seu próprio ritmo, pois os e-books fornecem conhecimento aprofundado sobre tópicos específicos.</li>
+
+<li>As pessoas podem usar o produto para definir e monitorar suas metas de saúde e condicionamento físico, pois os e-books incluem programas abrangentes ou planos adaptados a objetivos específicos, como perda de peso, ganho muscular ou melhoria do bem-estar geral. </li>
+
+<li>Os indivíduos podem personalizar o produto para atender às suas necessidades. Eles podem selecionar e-books e artigos que se alinham aos interesses específicos ou objetivos de saúde de seu público-alvo</li>
+
+<li>Este pacote contém conhecimento não apenas sobre a dieta padrão, mas também sobre as dietas veganas e cetônicas. </li>
+
+
+</ul></div>
+
+
+<div class="col-md-12 col-sm-12 col-xs-12">
+                
+               
+
+
+
+<p class="fm30 fs20 fx10 line170 text-center   black wt700  poppins spacer2">
+    Então, não perca <br>
+ <span class="b2"></span> e compre esse incrível produto!!! ></span><br>
+ 
+</p>
+<p class="fm28 fs20 fx10 line170 text-center   black wt700  poppins spacer3">No vasto domínio dos serviços profissionais, os freelancers obtêm uma remuneração significativa dos seus clientes por ofertas comparáveis que oferecemos graciosamente, em pacote, por uma taxa nominal única.
+            </div>
+
+</div></div></div>
+
+
+
+<section class="background4a ">
+<div class="container ">
+<div class="row">
+<div class="col-md-12 col-sm-12 col-xs-12">
+<p class="fm40 fs20 fx14 line140 white poppins text-center wt800">
+
+
+
+
+<div class="whitesection">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                
+               
+
+
+
+<p class="fm30 fs20 fx10 lh180 text-center   black wt500  poppins spacer2">
+    Esses e-books instrutivos são projetados para ajudar os indivíduos a aprimorar suas habilidades de treinamento e a cultivar uma personalidade de treinador profissional.
+</p><br>
+
+<p class="fm30 fs20 fx10 lh180 text-center   black wt500  poppins spacer2"></p>
+
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="whitesection spacer2">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+
+
+
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                    <img src="images/coo2.png"   class="img-responsive center-block">
+                </div>
+
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                     <p class="fm22 black wt500 fs20 fx18 line140  mulish text-left">
+           
+                        Saúde e condicionamento físico é um nicho incrivelmente grande que se tornou uma indústria multibilionária, e há muito espaço para melhorar e encontrar um espaço para você dentro do setor. <br><br>
+                        Como todos sabemos, o mundo está a funcionar a um ritmo mais acelerado e as pessoas estão muito ocupadas devido à sua carga de trabalho, o que acaba por lhes custar o seu Fitness. As pessoas estão ganhando peso e começando a se preocupar mais com a saúde.<br><br>
+           
+                        A indústria de saúde e fitness está se tornando mais digital e algumas pessoas não têm muito tempo para ir à academia. Nosso produto ajudará essas pessoas com nossos melhores e-books sobre treinamento de força, cardio, aeróbica, ioga, alongamento e dieta alimentar, acompanhados de artigos e imagens de citações. 
+            </p>
+                </div>
+                
+
+                <div class="col-md-12 col-sm-12 col-xs-12 spacer4">
+                     <p class="fm28 fs20 fx14 line170 black poppins text-center wt800">
+                        Indivíduos que aderem a um estilo de vida vegano e buscam exclusivamente opções dietéticas veganas também receberão uma coleção de receitas veganas em nosso conceituado pacote premium.
+                     </p>
+                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+   
+            <div class="col-md-12 col-sm-12 col-xs-12 ">
+                <p class="fm45 fs20 fx14 line170 red poppins text-center wt800">
+                </p>
+            </div>
+
+            
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<div class="whitesection spacer2">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                     <p class="fm24 black wt500 fs20 fx18 line140  mulish text-center">
+                        Sem dúvida, sua empolgação deve ser avassaladora!<br><br>
+                        No entanto, de fato, você ouviu corretamente! <br><br>
+                       <b> Você pode adquirir este produto incrível por um preço tão baixo, então não espere... </b><br><br>
+                        Aproveite esta oportunidade agora!
+            </p>
+                </div>
+
+                <div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-12  poppins spacer4">
+
+                    <a href="#">
+                        <div class="buybtn text-center shine poppins spacer3">
+                        <span class="wt600 fm26 fs24 fx10">Pacote Mega Fitness</span><br>
+                        </div>
+                        </a>
+                    <br>
+                    
+                    
+                    </div>  
+                
+            </div>
+            <p class="fm32 black wt700 fs20 fx18 line160  mulish text-center spacer3">Em vez de tentar encontrar algo da moda para as próximas semanas, tente encontrar tendências de longo prazo que possam gerar lucros por períodos mais longos. E esse plano de longo prazo está aqui.</p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<!--<div class="section7x">
+<div class="container mycontainer">
+<div class="row">
+
+<div class="col-md-12 col-sm-12 col-xs-12">
+<p class="text-center fm40 fs15 fx14 line140 white poppins wt600">What Experts Are Saying About <br>"Massive Media Blowout with PLR" Offer...</p>
+</div>
+</div>
+</div>
+</div>
+
+
+<section class="sectionte">
+<div class="container spacer4">    
+    <div class="row">
+ 				 <div class="col-md-6 col-sm-12 col-xs-12 spacer2">
+                <div class="testi-block1">
+				<img src="images/yellow-ico1.png"  class="img-responsive"><br>
+                    <p class="fm16 fs20 fx14 line170 wt400  text-center poppins">
+                    Literally miraculous product in terms of quantity and quality. Over 1 Million+ Media Assets with PLR… That’s huge guys! And the visuals are absolutely stunning. It’s rare to find something so valuable at this low one-time price. And by providing PLR license with complete sales tools they have made it a total no-brainer for making huge bucks online. Highly Recommended!
+                    </p>
+                    <div style="clear:both;"></div><br><br>
+					<img src="images/yellow-ico2.png" class="yellowin2"><br>
+              </div>
+			  
+			  <div class="testimonial">
+			  <div class="pic">
+                        <img src="images/testimonials/Sam.png" alt="">
+                    </div>
+                    <div class="testimonial-prof">
+                        <h4 class="wt700">Sam Arief</h4>
+                    </div>
+			  
+			  
+		</div></div>
+		
+		
+        <div class="col-md-6 col-sm-6 col-xs-12 spacer2">
+                <div class="testi-block1">
+                    <img src="images/yellow-ico1.png"  class="img-responsive"><br>
+					<p class="fm16 fs20 fx14 line170 wt400  text-center poppins">
+                    I highly recommend this power-packed 1 Million+ media assets package to any marketer who is looking forward to saving thousands of dollars on visuals while simultaneously generating outstanding profits. As the name itself suggests, this is a massive collective, and with PLR and all the sales modules, it can be a great source of your income online. Grab it guys! 
+
+                    </p>
+					<div style="clear:both;"></div><br><br>
+					<img src="images/yellow-ico2.png" class="yellowin2"><br>
+					</div>
+					
+              <div class="testimonial">
+			  <div class="pic">
+                        <img src="images/testimonials/Maghfur.png" alt="">
+                    </div>
+                    <div class="testimonial-prof">
+                        <h4 class="wt700">Maghfur Amin</h4>                        
+                    </div>
+				</div>
+		</div>
+	</div>
+			
+			
+    <div class="row spacer4">
+ 				 <div class="col-md-6 col-sm-12 col-xs-12 spacer2">
+                <div class="testi-block1">
+				<img src="images/yellow-ico1.png"  class="img-responsive"><br>
+                    <p class="fm16 fs20 fx14 line170 wt400  text-center poppins">
+                    Firelaunchers always provide top-notch PLR offers and this Massive Media Blowout package is no exception. With 1 Million+ media assets including high-quality videos, audios, images, animated avatars, graphics, logos, etc. they have packed so much value in one bundle. But the best part is- they are providing everything with PLR and DFY sales stuff at this ridiculously low one-time price which makes it Perfect for Everyone. Go for it guys before the price increases!
+
+
+                    </p>
+					<div style="clear:both;"></div><br><br>
+                    
+					<img src="images/yellow-ico2.png" class="yellowin2"><br>
+              </div>
+			  
+			  <div class="testimonial">
+			  <div class="pic">
+                        <img src="images/testimonials/Arif.png" alt="">
+                    </div>
+                    <div class="testimonial-prof">
+                        <h4 class="wt700">Arif Chandra</h4>
+                    </div>
+			  
+			  
+		</div></div>
+		
+		
+        <div class="col-md-6 col-sm-6 col-xs-12 spacer2">
+                <div class="testi-block1">
+                    <img src="images/yellow-ico1.png"  class="img-responsive"><br>
+					<p class="fm16 fs20 fx14 line170 wt400  text-center poppins">
+                    Oh my, this Massive Media Blowout package literally blew my mind. Your stuff is astounding – 1 Million+ media assets including videos, images, graphics, characters - all are killer. But the focal points are amazing sales modules and Private Label Rights licenses. A perfect product to sell and bank big profits while establishing yourself as an authority online.
+
+
+
+                    </p>
+					<div style="clear:both;"></div><br><br>
+					<img src="images/yellow-ico2.png" class="yellowin2"><br>
+					</div>
+					
+              <div class="testimonial">
+			  <div class="pic">
+                        <img src="images/testimonials/Maftuch.png" alt="">
+                    </div>
+                    <div class="testimonial-prof">
+                        <h4 class="wt700">Maftuch Junaidy Mhirda
+</h4>                        
+                    </div>
+				</div>
+		</div>
+	</div>
+			
+			
+			
+	  <div class="row spacer4">
+ 				 <div class="col-md-6 col-sm-12 col-xs-12 spacer2">
+                <div class="testi-block1">
+				<img src="images/yellow-ico1.png"  class="img-responsive"><br>
+                    <p class="fm16 fs20 fx14 line170 wt400  text-center poppins">
+                    Incredible package guys! I always love your stuff but this time you seriously have gone the extra mile with 1 Million+ media assets. Everything is perfect – videos, audio, graphics, images, animations, logos, and PLR license. With all the sales modules, anyone can put it to great use for making fast bucks online. I have never seen a package so incredible with such a big PLR opportunity at this low price. 
+                    </p>
+                    <div style="clear:both;"></div><br><br>
+					<img src="images/yellow-ico2.png" class="yellowin2"><br>
+              </div>
+			  
+			  <div class="testimonial">
+			  <div class="pic">
+                        <img src="images/testimonials/Deni.PNG" alt="">
+                    </div>
+                    <div class="testimonial-prof">
+                        <h4 class="wt700">Deni Iskander</h4>
+                    </div>
+			  
+			  
+		</div></div>
+		
+		
+        <div class="col-md-6 col-sm-6 col-xs-12 spacer2">
+                <div class="testi-block1">
+                    <img src="images/yellow-ico1.png"  class="img-responsive"><br>
+					<p class="fm16 fs20 fx14 line170 wt400  text-center poppins">
+                    For somebody like me who uses visual assets all the time, this ‘Massive Media Blowout’ offer is a godsend. I am in love with all the media files of this package, but most importantly, they are even giving PLR license and DFY sales modules with it as well, which makes it an excellent source of income in times like these. Seize the opportunity without delay!
+
+</p><div style="clear:both;"></div><br><br>
+					<img src="images/yellow-ico2.png" class="yellowin2"><br>
+					</div>
+					
+              <div class="testimonial">
+			  <div class="pic">
+                        <img src="images/testimonials/Anugerah.png" alt="">
+                    </div>
+                    <div class="testimonial-prof">
+                        <h4 class="wt700">Anugerah Syaifullah
+</h4>                        
+                    </div>
+				</div>
+		</div>
+	</div>
+    
+    
+    
+    
+  
+ <div class="row spacer4">
+ 				 <div class="col-md-6 col-sm-12 col-xs-12 spacer2">
+                <div class="testi-block1">
+				<img src="images/yellow-ico1.png"  class="img-responsive"><br>
+                    <p class="fm16 fs20 fx14 line170 wt400  text-center poppins">
+                    Brilliant Package! Firelaunchers made it much easier to find high-quality visuals for your offers and also make some good bucks online from selling it with a PLR license. This massive PLR opportunity with all the sales modules will set you up for long-term success in just minutes. I'll be recommending this to everyone with a 10/10.
+                    </p>
+                    <div style="clear:both;"></div><br><br>
+					<img src="images/yellow-ico2.png" class="yellowin2"><br>
+              </div>
+			  
+			  <div class="testimonial">
+			  <div class="pic">
+                        <img src="images/testimonials/Bayu.png" alt="">
+                    </div>
+                    <div class="testimonial-prof">
+                        <h4 class="wt700">Bayu Tara Wijaya</h4>
+                    </div>
+			  
+			  
+		</div></div>
+		
+		
+        <div class="col-md-6 col-sm-6 col-xs-12 spacer2">
+                <div class="testi-block1">
+                    <img src="images/yellow-ico1.png"  class="img-responsive"><br>
+					<p class="fm16 fs20 fx14 line170 wt400  text-center poppins">
+                    You’ve nailed it, guys! This is a one-of-a-kind media assets collection with 1 Million+ visual assets including thousands of videos, audios, images, graphics, animations, etc. But the catch here is PLR license with DFY sales stuff. Many can bring incredible profits from selling it further. Thanks for the hard work guys!</p>
+					<div style="clear:both;"></div><br><br>
+					<img src="images/yellow-ico2.png" class="yellowin2"><br>
+					</div>
+					
+              <div class="testimonial">
+			  <div class="pic">
+                        <img src="images/testimonials/Arifianto.png" alt="">
+                    </div>
+                    <div class="testimonial-prof">
+                        <h4 class="wt700">Arifianto Rahardi
+</h4>                        
+                    </div>
+				</div>
+		</div>
+	</div>
+ 
+
+    
+	
+<div class="row spacer4">
+ 				 <div class="col-md-6 col-sm-12 col-xs-12 spacer2">
+                <div class="testi-block1">
+				<img src="images/yellow-ico1.png"  class="img-responsive">
+                    <p class="fm15 fs20 fx14 line170 wt400  text-center poppins">
+                    	Excellent visuals and everything is of high quality. You have included some very captivating videos, audios, images, animations, avatars for almost every niche on the planet. The best part is, it’s even coming with a PLR license. That’s very rare to find such a package with such an extensive PLR license and with all the sales modules along with it, anyone can put it to great use to make a fortune online. Kudos Firelaunchers!
+                    </p>
+					
+                    <div style="clear:both;"></div><br><br>
+					<img src="images/yellow-ico2.png" class="yellowin2"><br>
+              </div>
+			  
+			  <div class="testimonial">
+			  <div class="pic">
+                        <img src="images/testimonials/Ilham.PNG" alt="">
+                    </div>
+                    <div class="testimonial-prof">
+                        <h4 class="wt700">Ilham Zulkarnain</h4>
+                    </div>
+			  
+			  
+		</div></div>
+		
+		
+        <div class="col-md-6 col-sm-6 col-xs-12 spacer2">
+                <div class="testi-block1">
+                    <img src="images/yellow-ico1.png"  class="img-responsive"><br>
+					<p class="fm16 fs20 fx14 line170 wt400  text-center poppins">
+                    I really love the new package Firelaunchers are offering. Their product quality always amazes me and this new ‘Massive Media Blowout’ offer really awestruck me. With all the modules, they are even providing Private Label Rights. What better way to strike it rich online than selling a top-notch visual product. Highly recommended to every marketer out there!</p>
+					<div style="clear:both;"></div><br><br>
+					<img src="images/yellow-ico2.png" class="yellowin2"><br>
+					</div>
+					
+              <div class="testimonial">
+			  <div class="pic">
+                        <img src="images/testimonials/Simran.PNG" alt="">
+                    </div>
+                    <div class="testimonial-prof">
+                        <h4 class="wt700">Simran Pall</h4>                        
+                    </div>
+				</div>
+		</div>
+	</div>
+	</div>
+</section>-->
+
+
+
+
+
+
+
+
+<!--<section class="background4a spacer6">
+<div class="container ">
+<div class="row">
+<div class="col-md-12 col-sm-12 col-xs-12">
+<p class="fm40 fs20 fx14 line170 white poppins text-center wt800">
+Our Stunning vertical video bundle can make you income like this…
+</p></div>      
+</div></div></section>-->
+
+
+
+
+
+<!--<section class="whitesection">
+<div class="container">   
+<div class="row">
+<div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-12 spacer2">		
+<h2 class="fm50 fs18 fx30 line170 red text-center poppins wt700 ">
+And Many More... </h2></div>  
+
+
+<div class="col-md-12 col-sm-12 col-xs-12 fm18 fs20 fx16 spacer2">
+<div class="col-md-4 col-sm-12 col-xs-12 fm18 fs20 fx16">
+<ul class="cuttingedge-listing text-left line170 wt600 black fm22 fs15 fx15">				 				 
+<li>Art
+<li>Boy
+<li>Computer
+<li>Couples
+<li>Crime
+<li>Earth
+</div>
+
+<div class="col-md-4 col-sm-12 col-xs-12 fm18 fs20 fx16">
+<ul class="cuttingedge-listing text-left line170 wt600 black fm22 fs15 fx15">				 				 
+<li>Farmer
+<li>Fear
+<li>Fireworks
+<li>Flag
+<li>Flowers
+<li>Game
+</div>
+
+<div class="col-md-4 col-sm-12 col-xs-12 fm18 fs20 fx16">
+<ul class="cuttingedge-listing text-left line170 wt600 black fm22 fs15 fx15">				 				 
+<li>Girls
+<li>People
+<li>Smoke
+<li>Space
+<li>Town
+<li>Vehicles
+</div>
+
+</div></div></section>-->
+
+
+
+
+
+
+
+
+<!--<div class="section12">
+<div class="container democontainer">
+<div class="row">
+<div class="col-md-12 col-sm-12 col-xs-12 spacer8">
+<p class="fm36 fs32 fx15 line150 text-center wt800 y2 ">So Far, You Have Been Excluded From The Never-Ending <br>PLR Profits… But Not Anymore!!!</p></div>
+
+<div class="col-md-12 col-sm-12 col-xs-12">
+<div class="col-md-7 col-sm-12 col-xs-12 fm18 fs20 fx16 spacer4">
+<ul class="orangeArrow-listing text-left line170 wt400 white fm20 fs15 fx15">				 				 
+<li>You don’t need to <b>extract time from your busy schedule to slave over sales pages, product, and promo materials!</b>
+<li>You don’t have to <b>trouble your mind thinking about how to generate profits!</b>
+<li>You don’t need to <b>hire an expert to do the profitable work for you!</b>
+<li>You don’t need to <b>increase the bar of your responsibilities by doing it yourself!</b>
+<li>You don’t need to <b>acquire any technical/editing skills!</b>
+<li>You don’t need <b>expensive cameras or fancy studios!</b>
+<li>You don’t have <b>to wait for good results and ROI!</b>
+</li>
+</ul>
+</div>
+
+<div class="col-md-5 col-sm-12 col-xs-12 spacer4">
+<img src="images/men.png"   class="center-block img-responsive">
+</div>
+</div>
+
+<div class="col-md-12 col-sm-12 col-xs-12">
+<p class="fm26 fs32 fx15 line150 text-center wt600 white">And The Best Part Is… You Can Fix Its Cost As Much<br> You Want And Keep 100% Of The All The Profits You Make!</p>
+</div>
+</div></div></div>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--/*==========Section 10===========*/-->
+
+
+
+
+
+
+
+
+
+
+<section class="banner spacer10" style="background-color:#fff !important;">
+    <div class="container">
+        <div class="row">       
+          		   
+
+          <div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-12 spacer1">		
+<h2 class="fm100 fs18 fx30 line170 neon text-center poppins wt700 ">
+Apresento a vocês...</h2></div>  
+
+ <div class="col-md-8 col-md-offset-2 col-sm-12 col-xs-12 ">     
+<h2 class="fm42 fs18 fx30 line170 white text-center poppins wt700 ">
+" Pacote Mega Fitness" </h2></div> 
+
+<div class="col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
+<img src="images/product.png" width="800" class="img-responsive center-block">
+
+
+
+<p class="fm30 fs20 fx15 line160 wt600 black text-center mulish whitebg">
+<br><br><br>
+Desvende o potencial do Mega Fitness Bundle para acelerar o envolvimento e obter lucros incessantes!
+
+</b>
+</p>
+
+
+<p class="fm22 fs20 fx15 line160 wt600 poppins de centro de texto branco">
+<br>
+</p>
+
+
+</div></div></div></seção>
+
+
+
+
+<div class="seção branca spacer2">
+<div class="contêiner ">
+<div class="linha">
+
+
+
+<div class="col-md-12 col-sm-12 col-xs-12 ">
+<p class="text-center fm44 fs24 fx15 line140 wt800 poppins pretos">
+     O que este pacote de férias com tudo incluído e enciclopédico inclui?
+</p>
+</div>
+
+
+
+
+
+</div></div></div>
+
+
+
+
+<!-- 
+
+<section class="section12a" id="demo">
+<div class="container">   
+<div class="row">
+
+<div class="col-md-12 col-sm-12 col-xs-12">
+<div class="col-md-6 col-sm-12 col-xs-12 ">
+<div class="myvideo3A">
+	<div class="myvideo3-box">
+ <div class="demovideo1">
+        <object data="https://player.vimeo.com/video/782879103?h=940b4172dd&autoplay=0&loop=1" width="640" height="1138" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></object></div>
+</div></div></div>
+
+<div class="col-md-6 col-sm-12 col-xs-12 ">
+<div class="myvideo3A">
+	<div class="myvideo3-box">
+ <div class="demovideo1">
+        <object data="https://player.vimeo.com/video/782879397?h=940b4172dd&autoplay=0&loop=1" width="640" height="1138" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></object></div></div>
+</div>
+</div>
+
+</div>
+
+
+
+
+
+<div class="col-md-12 col-sm-12 col-xs-12">
+<div class="col-md-6 col-sm-12 col-xs-12 xsmt5">
+<div class="myvideo3A">
+    <div class="myvideo3-box">
+ <div class="demovideo1">
+        <object data="https://player.vimeo.com/video/782879547?h=940b4172dd&autoplay=0&loop=1" width="640" height="1138" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></object></div>
+</div></div></div>
+
+<div class="col-md-6 col-sm-12 col-xs-12 xsmt5">
+<div class="myvideo3A">
+    <div class="myvideo3-box">
+ <div class="demovideo1">
+        <object data="https://player.vimeo.com/video/782879169?h=940b4172dd&autoplay=0&loop=1" width="640" height="1138" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></object></div>
+</div></div></div>
+
+</div>
+
+
+
+
+
+<div class="col-md-12 col-sm-12 col-xs-12">
+<div class="col-md-6 col-sm-12 col-xs-12 xsmt5">
+<div class="myvideo3A">
+    <div class="myvideo3-box">
+ <div class="demovideo1">
+        <object data="https://player.vimeo.com/video/782879946?h=940b4172dd&autoplay=0&loop=1" width="640" height="1138" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></object></div>
+</div></div></div>
+
+
+
+<div class="col-md-6 col-sm-12 col-xs-12 xsmt5">
+<div class="myvideo3A">
+    <div class="myvideo3-box">
+ <div class="demovideo1">
+        <object data="https://player.vimeo.com/video/782880091?h=940b4172dd&autoplay=0&loop=1" width="640" height="1138" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></object></div>
+</div></div></div></div>
+
+
+
+
+
+
+</div></div></section> -->
+
+
+<!-- <section class="section12a">
+<div class="container">   
+<div class="row">
+
+<div class="col-md-12 col-sm-12 col-xs-12">
+<div class="col-md-6 col-sm-12 col-xs-12 xsmt5">
+<div class="myvideo3A">
+    <div class="myvideo3-box">
+ <div class="demovideo1">
+        <object data="https://player.vimeo.com/video/782880362?h=940b4172dd&autoplay=0&loop=1" width="640" height="1138" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></object></div>
+</div></div></div>
+
+<div class="col-md-6 col-sm-12 col-xs-12 xsmt5">
+<div class="myvideo3A">
+    <div class="myvideo3-box">
+ <div class="demovideo1">
+        <object data="https://player.vimeo.com/video/782880597?h=940b4172dd&autoplay=0&loop=1" width="640" height="1138" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></object></div>
+</div></div></div>
+
+</div>
+
+
+
+
+<div class="col-md-12 col-sm-12 col-xs-12">
+<div class="col-md-6 col-sm-12 col-xs-12 xsmt5">
+<div class="myvideo3A">
+    <div class="myvideo3-box">
+ <div class="demovideo1">
+        <object data="https://player.vimeo.com/video/782880780?h=940b4172dd&autoplay=0&loop=1" width="640" height="1138" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></object></div>
+</div></div></div>
+
+<div class="col-md-6 col-sm-12 col-xs-12 xsmt5">
+<div class="myvideo3A">
+    <div class="myvideo3-box">
+ <div class="demovideo1">
+        <object data="https://player.vimeo.com/video/782880952?h=940b4172dd&autoplay=0&loop=1" width="640" height="1138" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></object></div>
+</div></div></div>
+
+</div>
+
+
+
+
+</div></div></section> -->
+
+
+<section class="section12a">
+<div class="container">   
+<div class="row">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<div class="col-md-12  col-sm-12 col-xs-12 spacer8">           
+<p class="text-center fm42  fs24 fx15 line140 wt400 black poppins">
+<span class="wt800">50 E-Book</span>  with HD Training Fitness Videos is a whole package that anyone could ever require for learning as well as selling.
+
+</p><br><br><br>
+
+</div>-->
+
+<img src="images/ebooks.png" class="img-responsive center-block">
+
+
+
+
+<br><br><br> 
+
+
+
+</div></div></section>
+
+
+<div class="whitesectionor">
+    <div class="container">
+    <div class="row">
+    
+    
+        <!--<div class="col-md-10 col-md-offset-1 col-sm-12 col-xs-12 spacer2 stripsss">
+                    <p class="fm34 fs30 fx18 line180 text-center wt700 white poppins">3 Absolute Exclusive and Unique Bonuses... </p>
+                </div>-->
+    
+    <div class="col-md-12 col-sm-12 col-xs-12">
+    
+        <div class="col-md-7 col-sm-12 col-xs-12  spacer4">
+    
+    
+    </div>
+    </div></div></div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="section gradient-banner">
+    <div class="shapes-container">
+        <div class="shape" data-aos="fade-down-left" data-aos-duration="1500" data-aos-delay="100"></div>
+        <div class="shape" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100"></div>
+        <div class="shape" data-aos="fade-up-right" data-aos-duration="1000" data-aos-delay="200"></div>
+        <div class="shape" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"></div>
+        <div class="shape" data-aos="fade-down-left" data-aos-duration="1000" data-aos-delay="100"></div>
+        <div class="shape" data-aos="fade-down-left" data-aos-duration="1000" data-aos-delay="100"></div>
+        <div class="shape" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300"></div>
+        <div class="shape" data-aos="fade-down-right" data-aos-duration="500" data-aos-delay="200"></div>
+        <div class="shape" data-aos="fade-down-right" data-aos-duration="500" data-aos-delay="100"></div>
+        <div class="shape" data-aos="zoom-out" data-aos-duration="2000" data-aos-delay="500"></div>
+        <div class="shape" data-aos="fade-up-right" data-aos-duration="500" data-aos-delay="200"></div>
+        <div class="shape" data-aos="fade-down-left" data-aos-duration="500" data-aos-delay="100"></div>
+        <div class="shape" data-aos="fade-up" data-aos-duration="500" data-aos-delay="0"></div>
+        <div class="shape" data-aos="fade-down" data-aos-duration="500" data-aos-delay="0"></div>
+        <div class="shape" data-aos="fade-up-right" data-aos-duration="500" data-aos-delay="100"></div>
+        <div class="shape" data-aos="fade-down-left" data-aos-duration="500" data-aos-delay="0"></div>
+    </div>
+    <div class="container">
+   
+
+
+<div style="clear:both;"></div>
+
+
+
+<div class="whitesection">
+<div class="container spacer6">
+<div class="row">
+<div class="col-md-10 col-md-offset-1 col-sm-offset-1 col-sm-10 col-xs-12 outline">
+    <h3 class="fm40 fs20 fx20 line170 red poppins text-center wt800 spacer1">Então, você está pronto para começar????</h3>
+    <p class="fm24 fs20 fx20 line170 black poppins text-center wt600 spacer1">Este é realmente um conteúdo de ouro! E merece um PREÇO PESADO.
+    <br><br>
+    Mas o objetivo é permitir que todos tenham acesso e aprendam todas as informações necessárias para iniciar sua jornada fitness, além de encher o bolso de dinheiro através das redes sociais.
+    <br><br>
+    Então, decidimos oferecer a você um desconto muito grande, mas apenas pelos próximos dias.
+</p>
+
+<h3 class="l18 m16 bold s15 line150 text-center spacer3 poppins">
+
+<a href="#" class="poppins spacer2"><span class="fm30 fs20 fx20 line170 white poppins text-center wt600">BAIXE AGORA</span></a>
+</div>
+</div>
+
+
+<div class="col-md-12 col-sm-12 col-xs-12 spacer6">
+
+
+
+
+<p class="fm24 fs20 fx20 line170 black poppins text-left wt600 spacer1">
+    Já cobrimos muito e queremos garantir que você saia com algo tangível.
+    <br/><br/>
+    Você não tem desculpas para não começar agora.</span>
+    <br/><br/></p>
+    
+    
+    <p class="fm24 fs20 fx20 line170 black poppins text-left wt600 spacer1">Tudo o que resta a você fazer é executar. O mundo está à sua disposição e realmente esperamos que você aja depois de ler isto.
+</p>
+
+<p class="fm24 fs20 fx20 line170 black poppins text-left wt600 spacer1">
+
+<br>
+<strong><a href="#" class="fm24 fs20 fx20 line170  poppins text-left wt600 spacer1">Baixe o pacote "Mega Fitness" HOJE! </a>
+
+</strong></a><br><br>
+
+</h3>
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="lightblock">
+<div class="container">
+<div class="row">
+<div class="col-md-4 col-sm-6 col-xs-12">
+<img src="images/logo.png" width="300" class="img-responsive center-block">
+</div>
+
+<div class="col-md-8 col-sm-12 col-xs-12 text-center whitetext spacer3">
+
+
+</div>
+</div>
+</div>
+
+
+<!--<div class="stickybar hidden-xs">
+
+        
+
+<div class="row">
+
+
+
+       <div class="col-md-5 col-sm-5 col-xs-12">
+
+		<div class="text-center white fl24 fm24 fs22 fx20 wt500"><span class="fl26 fm24 fs22 fx20 line150 wt700 yellow">Hurry...</span> Special Price is going <br>to Expire Soon...</div>
+        </div>
+
+		
+		
+		
+
+		<div class="col-md-4 col-sm-3 col-xs-12">
+
+          	
+           <div class="white" id="countdown2" data-wow-delay=".3s" data-date="<?php echo $time; ?>"></div>
+		   
+		   </div>
+		   
+		  
+
+        <div class="col-md-3 col-sm-4 col-xs-12 text-center spcaer4">
+
+            <a href="#buyNow" class="stickybutton f22 fm18 fs18 fx16 wt600 spacer1"> Get Instant Access</a>
+
+        </div>
+
+    </div>
+
+    </div>
+
+
+<div class="stickybar visible-xs">
+
+        
+
+<div class="row">
+
+
+
+       <div class="col-md-4 col-sm-5 col-xs-12">
+
+<div class="text-center white fl24 fm24 fs22 fx20 wt500"><span class="fl26 fm24 fs22 fx20 line150 wt700 yellow">Hurry...</span> Special Price is going <br>to Expire Soon...</div>
+        </div>
+
+		
+		
+		
+
+		<div class="col-md-4 col-sm-3 col-xs-12">
+
+          	
+           <div class="white" id="countdown2" data-wow-delay=".3s" data-date="<?php echo $time; ?>"></div>
+		   
+		   </div>
+		   
+		  
+
+        <div class="col-md-4 col-sm-4 col-xs-12 text-center spcaer4">
+
+            <a href="#buyNow" class="stickybutton f22 fm18 fs18 fx16 wt600 spacer1"> Get Instant Access</a>
+
+        </div>
+
+    </div>
+
+    </div>
+
+<div style="height:100px" class="hidden-xs"></div>
+<div style="height:180px" class="visible-xs"></div>-->
+
+<!-- Load Ouibounce from CDN -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ouibounce/0.0.11/ouibounce.min.js"></script>
+
+
+
+<!-- Ouibounce Modal -->
+<div id="exitmodal" style="z-index:99999;">
+<div class="underlay"></div>
+<div class="modal popupbg">
+
+
+<div class="modal-body">
+<button type="button" class="close custom-close" onclick="document.getElementById('exitmodal').style.display = 'none';">&times;</button>
+<div class="row spacer0">
+
+<div class="col-md-12 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 xsst2">
+<h2 class=" text-center fm36 fs36 fx26 line130 wt800 montser">
+<span class="yellow">= = Before You Leave = =</span>
+</h2>
+</div> 
+<div class="col-md-6 col-sm-6 col-xs-12 xsst4">
+<img src="images/popupimg.png" width="200" class="center-block img-responsive" />
+</div> 
+
+<div class="col-md-6 col-sm-6 col-xs-12 xsst4">
+<h2 class="fm36 fs36 fx25 neon"><strong>Grab this Animated Graphics Special pngt</strong></h2>
+<p class="fm24 fs24 fx20 line150 xsst4 white">
+Use these videos as you want</p>
+</div>
+
+
+<div class="formbg col-xs-12 col-xs-offset-0 xsst4">
+<form action="https://app.getresponse.com/add_subscriber.html" accept-charset="utf-8" method="post">    
+    <!-- Email field (required) -->
+    <div class="col-md-7 col-sm-7 col-xs-12">
+        <input type="text" name="email" placeholder="Email"/>
+        <i class="glyicon-email glyphicon glyphicon-envelope mailicon"></i>
+    </div>
+    <!-- Campaign token -->
+    <!-- Get the token at: https://app.getresponse.com/campaign_list.html -->
+    <input type="hidden" name="campaign_token" value="4zxeB" />
+    <!-- Thank you page (optional) -->
+    <input type="hidden" name="thankyou_url" value="http://firelaunchers.com/offers/stock-video-plr-firesale-special-free-pngt/"/>
+    <!-- Forward form data to your page (optional) -->
+    <input type="hidden" name="forward_data" value="" />
+    <!-- Subscriber button -->
+    <div class="col-md-5 col-sm-5 col-xs-12 white text-center">
+    <input type="submit" class="text-center wt600 fx18" value="Download Free pngt"/>
+    </div>
+</form>
+</div>
+
+
+
+  
+
+
+</div><!--End Inner Body-->
+</div><!--End Form Body-->
+
+
+</div>
+</div>
+
+
+<!--
+<script>
+var _ouibounce = ouibounce(document.getElementById('exitmodal'),{
+aggressive: true, //Making this true makes ouibounce not to obey "once per visitor" rule
+});
+</script>-->
+
+
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.min.js"></script> 
+
+<script src="js/jquery.countdown.min.js"></script>
+    <script type="text/javascript">
+    if ($('#countdown,#countdown1,#countdown2,#countdown3,#countdown4,#countdown5,#countdown6,#countdown7,#countdown8,#countdown9').length) { 
+          $('#countdown,#countdown1,#countdown2,#countdown3,#countdown4,#countdown5,#countdown6,#countdown7,#countdown8,#countdown9').countdown({
+            render: function(data) {
+              if (data.years >= 1) {
+                var $days = (data.years*365)+data.days;
+              } else {
+                var $days = data.days;
+              }
+              $(this.el).html(
+                '<div class="day">' + this.leadingZeros($days) + ' <span>Days</span></div>'+
+                '<div class="hour">' + this.leadingZeros(data.hours, 2) + ' <span>Hours</span></div>'+
+                '<div class="min">' + this.leadingZeros(data.min, 2) + ' <span>Min</span></div>'+
+                '<div class="sec">' + this.leadingZeros(data.sec, 2) + ' <span>Sec</span></div>'
+              );
+            }
+          });
+        }
+
+    </script>
+	
+<script>
+const accordion = document.getElementsByClassName
+('contentBx');
+
+for (i=0; i<accordion.length; i++){
+accordion[i].addEventListener('click', function(){
+	this.classList.toggle('active')
+})
+}
+</script>	
+	
+	
+	
+	
+<script  async src="js/scripts.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.js"></script>	
+	
+
+<script>
+$(function() {  
+
+    jQuery.scrollSpeed(200, 1000);
+
+});
+</script>
+
+
+
+
+<script type="text/javascript">
+      var canvas = document.getElementById("canvas");
+var ctx = canvas.getContext("2d");
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
+
+MOUSE_RADIUS = 100;
+NUMBER_OF_PARTICLES = 10000; // Less is more
+
+let mouse = {
+    x: undefined,
+    y: undefined,
+    radius: (canvas.height / MOUSE_RADIUS) * (canvas.width / MOUSE_RADIUS)
+}
+
+class Particle { 
+    constructor (x, y, directionX, directionY, size, color) {
+        this.x = x;
+        this.y = y;
+        this.directionX = directionX;
+        this.directionY = directionY;
+        this.size = size;
+    }
+    draw () {
+        ctx.beginPath();
+        ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2, false);
+        ctx.fillStyle = '#fff';
+        ctx.fill();
+    }
+    update () {
+        if (this.x > canvas.width || this.x < 0) {
+            this.directionX = -this.directionX;
+        }
+        if (this.y > canvas.height || this.y < 0) { 
+            this.directionY = -this.directionY;
+        }
+        let dx = mouse.x - this.x;
+        let dy = mouse.y - this.y;
+        let distance = Math.sqrt(dx * dx + dy * dy);
+        if (distance < mouse.radius + this.size) {
+            if (mouse.x < this.x && this.x < canvas.width - this.size * 5) {
+                this.x += 5;
+            }
+            if (mouse.x > this.x && this.x > this.size * 5) {
+                this.x -= 5;
+            }
+            if (mouse.y < this.y && this.y < canvas.height - this.size * 5) {
+                this.y += 5;
+            }
+            if (mouse.y > this.y && this.y > this.size * 5) {
+                this.y -= 5;
+            }
+        }
+        this.x += this.directionX;
+        this.y += this.directionY;
+        this.draw();
+    }
+}
+
+function init() {
+    particlesArray = [];
+    let numberOfParticles = (canvas.height * canvas.width) / NUMBER_OF_PARTICLES;
+    for (let i = 0; i < numberOfParticles; i++) {
+        let size = (Math.random() * 5) + 1;
+        let x = (Math.random() * ((innerWidth - size * 2) - size * 2)) + size * 2;
+        let y = (Math.random() * ((innerHeight - size * 2) - size * 2)) + size * 2;
+        let directionX = (Math.random() * 4) - 2.5;
+        let directionY = (Math.random() * 4) - 2.5;
+        let color = '#fff'
+        particlesArray.push(new Particle(x, y, directionX, directionY, size, color));
+    }
+}
+
+function animate() {
+    requestAnimationFrame(animate);
+    ctx.clearRect(0, 0, innerWidth, innerHeight);
+    for (let i = 0; i < particlesArray.length; i++) {
+        particlesArray[i].update();
+    }
+    connect();
+}
+
+function connect() {
+    let opacityValue = 1;
+    for (let i = 0; i < particlesArray.length; i++) {
+        for (let j = 0; j < particlesArray.length; j++) {
+            let distance =
+            ((particlesArray[i].x - particlesArray[j].x) * (particlesArray[i].x - particlesArray[j].x)) +
+            ((particlesArray[i].y - particlesArray[j].y) * (particlesArray[i].y - particlesArray[j].y));
+            if (distance < (canvas.width / 8) * (canvas.height / 8)) {
+                opacityValue = 1 - (distance / 20000);
+                ctx.strokeStyle = "rgba(255, 255, 255, " + opacityValue + ")";
+                ctx.lineWidth = 1;
+                ctx.beginPath();
+                ctx.moveTo(particlesArray[i].x, particlesArray[i].y);
+                ctx.lineTo(particlesArray[j].x, particlesArray[j].y); 
+                ctx.stroke();  
+            }
+        }
+    }
+}
+
+function main() {
+    init();
+    animate();
+}
+
+function erase() {
+    ctx.clearRect(0, 0, innerWidth, innerHeight);   
+}
+
+//reset all particles when spacebar is pressed
+window.addEventListener('keydown', function(event) {
+    if (event.keyCode === 32) {
+        erase();
+        init();
+    }
+});
+
+window.addEventListener("mousemove", function (event) {
+    mouse.x = event.x;
+    mouse.y = event.y;
+});
+
+window.addEventListener("resize", function () {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+    init();
+});
+
+window.addEventListener("mouseout", function () {
+    mouse.x = undefined;
+    mouse.y = undefined;
+});
+
+main();
+    </script>
+    <script type="text/javascript">
+        let section = document.querySelectorAll(".accordion");
+let aRRay = Array.from(section);
+
+aRRay.map((items) => {
+  items.addEventListener("click", function(){
+      
+    items.classList.toggle("active");
+    let nextdiv = items.nextElementSibling;
+
+    if(nextdiv.style.display == "block"){
+      nextdiv.style.display = "none"
+    }else{
+      nextdiv.style.display = "block"
+    }
+
+    if ( nextdiv.style.maxHeight) {
+      nextdiv.style.maxHeight = null;
+    } else {
+      nextdiv.style.maxHeight = nextdiv.scrollHeight + "px";
+    } 
+
+  })
+})
+
+    </script>
+
+            <script src="assets/js/jquery.min.js"></script>
+            <script src="assets/js/browser.min.js"></script>
+            <script src="assets/js/breakpoints.min.js"></script>
+            <script src="assets/js/util.js"></script>
+            <script src="assets/js/main.js"></script>
+
+
+            <script src="plugins/jquery/jquery.min.js"></script>
+  <script src="plugins/bootstrap/bootstrap.min.js"></script>
+  <script src="plugins/slick/slick.min.js"></script>
+  <script src="plugins/fancybox/jquery.fancybox.min.js"></script>
+  <script src="plugins/syotimer/jquery.syotimer.min.js"></script>
+  <script src="plugins/aos/aos.js"></script>
+  <!-- google map -->
+    <script src="plugins/google-map/gmap.js"></script>
+  <script src="jss/script.js"></script>
+</body>
+</html>
